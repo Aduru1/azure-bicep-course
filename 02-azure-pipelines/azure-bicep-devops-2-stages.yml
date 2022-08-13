@@ -41,7 +41,7 @@ stages:
     - task: AzureCLI@2
       displayName: Preview Bicep Changes
       inputs:
-        azureSubscription: 'Microsoft-Azure-0(17b12858-3960-4e6f-a663-a06fdae23428)'
+        azureSubscription: 'Azure for Students (268a5a6e-ff17-421a-a75b-feab1c6322f4)'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: |
@@ -76,7 +76,7 @@ stages:
     - task: AzureCLI@2
       displayName: Deploy Bicep To Azure
       inputs:
-        azureSubscription: 'Microsoft-Azure-0(17b12858-3960-4e6f-a663-a06fdae23428)'
+        azureSubscription: 'Azure for Students (268a5a6e-ff17-421a-a75b-feab1c6322f4)'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: |
